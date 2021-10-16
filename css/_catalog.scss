@@ -1,0 +1,148 @@
+/*Catalog*/
+.two__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F3F4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__p{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #F16D7F;
+         
+    }
+    &_h1{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #F16D7F;
+    }
+}
+
+.way__a{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+    text-decoration: none;
+
+
+    &__red{
+        font-weight: 700;
+        color: #F16D7F;
+    }
+}
+.catalog__nav{
+
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 60%;
+        padding-top: 51px;
+        padding-bottom: 64px;
+    }
+    &__tuning{
+        display: flex;
+    }
+    
+    
+}
+.stiker{
+    display: flex;
+    justify-content: center;
+
+    &__border{
+        border: 1px solid #EBEBEB;
+        padding: 16px;
+        margin-top: 50px;
+        margin-bottom: 96px;
+    }
+    
+}
+.filter{
+    &__ul{
+        font-weight: 400;
+        list-style-type: none;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6F6E6E;
+        
+    }
+    &__li{
+        margin-top: 11px;
+        margin-bottom: 11px;
+    }
+}
+
+.details__groop::-webkit-details-marker {
+  
+    margin-bottom: 20px; 
+    display: none;
+}
+.details__groop__summary {
+    display: block;
+    border-left: 5px solid  #EF5B70;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 18px;
+  
+    &__top{
+        display: block;
+        padding: 10px;
+        outline: none;
+        margin-bottom: 18px;
+    }
+ 
+}
+.details__groop__tuning::-webkit-details-marker{ 
+    display: none;
+    
+
+}
+.details__groop__tunings{
+    
+    display: block;
+    outline: none;
+    align-items: flex-end;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    
+}
+.details__groop__tunings::after{
+    content: url(../img/img-catalog/icon-bottom.svg);
+    margin-left: 10px;
+}
+.size-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    font-size: 14px;
+    line-height: 16px;
+    color: #6F6E6E;
+}
+.tuning{
+    margin-left: 48px;
+}
+   
+.catalog__list{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+
+    text-decoration: none;
+    padding: 10px;
+    
+
+    &__red{
+        color: #EF5B70;
+    }
+}

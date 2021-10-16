@@ -1,0 +1,112 @@
+/* product*/
+.product{
+    &_img{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F7F7F7;
+        padding-bottom: 65px;
+    }
+    &__women-colection{
+
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #F16D7F;
+        margin-top: 64px;
+        margin-bottom: 12px;
+
+        
+    }
+    &__hr{
+        margin: 0;
+        border: none;
+        color: #EF5B70;
+        width: 100px;
+        height: 3px;
+        background-color: #EF5B70;
+
+    }  
+
+    &__moschino{
+        margin-top: 12px;
+        margin-bottom: 48px;
+
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4D4D4D;
+    }
+    &__description_text{
+        margin: 0;
+
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #5E5E5E;
+    }
+    &__description_prise{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+        margin-bottom: 65px;
+        padding-bottom: 62px;
+
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #EF5B70;
+
+        border-bottom: 1px solid #EAEAEA;;
+
+    }
+    &__button{
+        display: flex;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F26376;
+        background-color: #FFFFFF;
+        border: 1px solid #FF6A6A;
+        padding: 14px 56px 14px 23px;
+        margin-bottom: 65px;
+        margin-top: 50px;
+    }
+    &__button-text{
+        padding-left: 23px;
+    }
+    &__back{
+        background-color: #F8F8F8;
+        max-width: 360px;
+        margin-bottom: 128px;
+    }
+    &__wraper{
+        background-color: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        margin-bottom: 130px;
+        margin-top: -65px;
+        position: relative;
+    }
+    &__button-left{
+        border: none;
+        color:  #000000;;
+        padding: 12px 17px;
+        font-size: 21px;
+        margin-left: 1px;
+        font-weight: 700;
+        background-color: rgba(42, 42, 42, 0.15);
+
+    }
+    &__button-right{
+        color: black;
+        border: none;
+        padding: 12px 17px;
+        font-size: 21px;
+        margin-left: 1px;
+        font-weight: 700;
+        background-color: rgba(42, 42, 42, 0.15);
+
+    }
+}    
